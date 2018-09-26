@@ -554,4 +554,8 @@ public class PhoneFactory {
     public static PhoneSwitcher oemGetPhoneSwitcher() {
         return sPhoneSwitcher;
     }
+
+    public static SubscriptionInfoUpdater getSubscriptionInfoUpdater() {
+        return sSubInfoRecordUpdater;
+    }
 }
